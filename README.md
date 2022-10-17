@@ -1,11 +1,11 @@
 # Digital Breakthrough 2022. Ulyanovsk region championship
 The championship task is to develop an algorithm that allows you to determine the distance to the vehicle in front in real-time, using a dataset of car photos from different distances. Subsequently, this algorithm can be used in navigation systems to warn of a dangerous approach and monitor distance compliance.
 
-**Place according to the [championship results](https://hacks-ai.ru/championships/758259): `2 out of 383` 🏆🏆🏆**
+**Place according to the [championship results](https://hacks-ai.ru/championships/758259): `2 out of 383` 🏆🏆🏆 - [certificate](https://github.com/EfremtsevVsevolod/estimate-distance-to-car/blob/main/certificate.pdf)**
 
 ## Data
 * Training data set: https://lodmedia.hb.bizmrg.com/case_files/791333/train_dataset_train.zip
-* Test data set: https://lodmedia.hb.bizmrg.com/case_files/791333/test_dataset_test .zip
+* Test data set: https://lodmedia.hb.bizmrg.com/case_files/791333/test_dataset_test.zip
 
 ## Brief description of the solution:
 1. At the first step, car license plates were detected on the image using the state-of-the-art model YOLOv7, determining their sizes and coordinates.
